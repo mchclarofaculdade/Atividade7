@@ -9,6 +9,7 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonArrayRequest
 import com.android.volley.toolbox.JsonObjectRequest
+import java.util.Currency.getInstance
 
 
 class MainActivity : AppCompatActivity() {
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             })
             
 
-          MapsActivity.getInstance(this).addToRequestQueue(jsonRequest)
+          //MapsActivity.getInstance(this).addToRequestQueue(jsonRequest)
 
     }
 }
